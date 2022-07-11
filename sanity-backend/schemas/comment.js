@@ -4,14 +4,14 @@ export default {
     type: "document",
     fields: [
       {
-        name: "postBy",
+        name: "postedBy",
         title: "Posted by",
         type: "postedBy",
       },
       {
           name:'comment',
-          title: 'Image',
-          type: 'Comment',
+          title: 'Comment',
+          type: 'string',
   
       }
     ],
