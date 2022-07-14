@@ -46,11 +46,13 @@ const Navbar = () => {
                     className=" rounded-full cursor-pointer"
                     src={userProfile.image}
                     alt="user-profile"
-                
                   />
                 </>
               </Link>
             )}
+            <button type="button" className="px-2">
+              <AiOutlineLogout color="red" fontSize={21} />
+            </button>
           </div>
         ) : (
           <GoogleLogin
